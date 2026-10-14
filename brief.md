@@ -28,5 +28,8 @@ Anonymization removes personal identifiers so that a person can no longer be ide
 
 Resource: General Data Protection Regulation (GDPR), Recital 26 and Article 4(5) - https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng
 ## Misconception in My Track
+A common misconception is that Retrieval-Augmented Generation (RAG) guarantees that an AI system will always provide correct answers. In reality, RAG retrieves information to help the system generate more relevant and grounded responses, but it does not eliminate all errors. The retrieved documents may be incomplete, outdated, or incorrect, and the model may misinterpret them. Therefore, RAG should be combined with reliable sources, careful evaluation, and appropriate safeguards. The original RAG paper explains how retrieved passages are used to support generation, rather than guaranteeing factual correctness.
 
+Resource: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Abstract and Section 2) - https://arxiv.org/abs/2005.11401
 ## Open Question
+How can a government AI assistant verify that retrieved information is accurate and up to date before using it to answer citizens' questions?
