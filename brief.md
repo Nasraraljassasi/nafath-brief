@@ -16,11 +16,17 @@ App Transport Security (ATS) is an Apple security feature that requires apps to 
 
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 ## Networking
+IPv4 and IPv6 are two versions of the Internet Protocol used to identify devices and route data across networks. IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses and provides a much larger address space. This is important because the number of connected devices, including phones and smart devices, continues to grow. IPv6 helps support this growth by providing many more unique addresses and supporting the continued expansion of the Internet.
 
+Resource: Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200.html
 ## Cybersecurity
+Prompt injection is an attack that attempts to manipulate an AI system by giving it instructions that conflict with its intended task or safety rules. Direct prompt injection comes from instructions entered directly by a user. Indirect prompt injection can be hidden in external content, such as documents or web pages, that the AI system processes. Two ways to reduce risk are to treat retrieved content as untrusted data and to restrict the AI system's access to sensitive tools and information.
 
+Resource: Indirect Prompt Injection - https://csrc.nist.gov/glossary/term/indirect_prompt_injection
 ## Data
+Anonymization removes personal identifiers so that a person can no longer be identified using reasonably available means. Pseudonymization replaces identifying details with codes or other identifiers, while additional information may still allow the data to be linked to a person. The key difference is that pseudonymized data can still identify someone when combined with separate information. Under the GDPR, truly anonymous information falls outside the regulation, but pseudonymized personal data generally remains protected by data protection law.
 
+Resource: General Data Protection Regulation (GDPR), Recital 26 and Article 4(5) - https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng
 ## Misconception in My Track
 
 ## Open Question
